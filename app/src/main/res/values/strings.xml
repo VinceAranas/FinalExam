@@ -1,0 +1,39 @@
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Lamborghini</string>
+    <string name="lamborghini_1">Aventador</string>
+    <string name="lamborghini_2">Centenario</string>
+    <string name="lamborghini_3">Countach</string>
+    <string name="lamborghini_4">Gallardo</string>
+    <string name="lamborghini_5">Huracan</string>
+    <string name="lamborghini_6">Reventon</string>
+    <string name="lamborghini_7">Sesto Elemento</string>
+    <string name="lamborghini_8">Sian</string>
+    <string name="lamborghini_9">Veneno</string>
+    <string name="lambo_description_1">Designed to be the fastest production vehicle.</string>
+    <string name="lambo_description_2">Only produce 40 total units of the Centenario.</string>
+    <string name="lambo_description_3">Broke the record of the largest tires in production car.</string>
+    <string name="lambo_description_4">Most reliable sports cars on the market.</string>
+    <string name="lambo_description_5">Italian automakers most affordable sports car.</string>
+    <string name="lambo_description_6">The Reventón became an instant collector’s item.</string>
+    <string name="lambo_description_7">Most expensive Lamborghini ever created.</string>
+    <string name="lambo_description_8">Uses unique material science in automotive application.</string>
+    <string name="lambo_description_9">One of the top sports cars in the world .</string>
+    <string name="about">Details:</string>
+    <string name="top_speed">%d km/h</string>
+    <string name="expand_button_content_description">See more or less information about Lamborghini Models.</string>
+</resources>
