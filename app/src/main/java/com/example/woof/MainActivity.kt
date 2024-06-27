@@ -68,12 +68,12 @@ class MainActivity : ComponentActivity() {
 fun LamboApp() {
     Scaffold(
         topBar = {
-            WoofTopAppBar()
+            LamboTopAppBar()
         }
     ) { it ->
         LazyColumn(contentPadding = it) {
             items(cars) {
-                DogItem(
+                CarItem(
                     car = it,
                     modifier = Modifier.padding(dimensionResource(R.dimen.padding_small))
                 )
@@ -83,7 +83,7 @@ fun LamboApp() {
 }
 
 @Composable
-fun DogItem(
+fun CarItem(
     car: Car,
     modifier: Modifier = Modifier
 ) {
@@ -152,7 +152,7 @@ private fun CarItemButton(
 }
 
 @Composable
-fun WoofTopAppBar(modifier: Modifier = Modifier) {
+fun LamboTopAppBar(modifier: Modifier = Modifier) {
     CenterAlignedTopAppBar(
         title = {
             Row(
@@ -240,7 +240,7 @@ fun CarDetail(
 
 @Preview
 @Composable
-fun WoofPreview() {
+fun CarPreview() {
     WoofTheme(darkTheme = false) {
         LamboApp()
     }
@@ -248,7 +248,7 @@ fun WoofPreview() {
 
 @Preview
 @Composable
-fun WoofDarkThemePreview() {
+fun CarDarkThemePreview() {
     WoofTheme(darkTheme = true) {
         LamboApp()
     }
